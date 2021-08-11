@@ -1,0 +1,189 @@
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container
+    {
+        background-color: rgb(215, 216, 216);
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .box1
+    {
+        height: 500px;
+        width: 470px;
+        /* border: 2px solid red; */
+        background-color: whitesmoke;
+    }
+    .box2
+    {
+        height: 500px;
+        width: 470px;
+        /* border: 2px solid red; */
+        background-color: whitesmoke;
+     
+        
+    }
+    .mainbox
+    {
+        /* border: 3px solid yellow; */
+        display: flex;
+        height: 500px;
+        box-shadow: 2px 2px 10px;
+        
+        
+    }
+    .input
+    {
+        font-size: 15px;
+        margin: 13px ;
+        border-style: hidden;
+        background-color: whitesmoke;
+        color: rgb(155, 154, 154);
+        padding: 5px;
+    }
+    .form
+    {
+        margin-top: 60px;
+        margin-right: 90px;
+        
+    }
+    .box2 h1
+    {
+        margin-right: 110px;
+        padding-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .box2 hr
+    {
+        margin-left: 77px;
+        opacity: 0.2;
+    }
+    .icon
+    {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        /* background-color: thistle; */
+        font-size: 15px;
+        margin-top: 18px;
+        margin-left: 60px;
+        color: rgb(160, 156, 156);
+    }
+    .check
+    {
+        margin-left: -10px;
+    }
+    #check
+    {
+        margin-left: 53px;
+        margin-top: 10px;
+    }
+    .btn
+    {
+        background-color: rgb(44, 167, 140);
+        color: rgb(255, 255, 255);
+        padding:3px 20px;
+        margin-top: 30px;
+        /* border: 3px solid red; */
+        margin-right: 22%;
+        border-radius: 40px;
+        
+    }
+    .btn:hover
+    {
+       color:yellow;
+       cursor: pointer;
+    }
+    .box2 p
+    {
+       margin-top: 15px;
+       margin-left: -70px;
+    }
+    .box1
+    {
+        background: url(fire.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+        opacity: 0.9;
+        
+        
+        
+    }
+    .head
+    
+    {  
+        display: flex;
+        /* border: 2px solid white; */
+       font-size: 1.9rem;
+        
+        margin: 200px 30px;
+        
+    }
+    #part2
+    {
+        color: rgb(4, 253, 191);
+        padding-left: 5px;
+        font-family: 'Do Hyeon', sans-serif;
+    }
+    #part1
+    {
+        color: white;
+        font-family: 'Do Hyeon', sans-serif;
+        /* font-family: 'Poppins', sans-serif; */
+    }
+    .box1 p
+    {
+        color: white;
+    }
+    .content
+    {
+        /* border: 2px solid red; */
+        margin-top: -190px;
+        margin-left: -170px;
+        font-size: 15px;
+        font-family: 'Do Hyeon', sans-serif;
+       
+    }
+    
+    #p2
+    {
+        /* border: 2px solid red; */
+        margin-right: 150px;
+    }
+    .footer
+    {
+        /* border: 2px solid white; */
+        margin-top: 165px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        color: rgb(214, 209, 209);
+        justify-content: space-between;
+        font-size: 15px;
+
+    }
+    .foot{
+        /* border: 2px solid white; */
+        width: 100px;
+        color: rgb(214, 209, 209);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #icon1
+    {
+        display: flex;
+        /* border: 2px solid white; */
+        align-items: center;
+        
+        color: rgb(214, 209, 209);
+        justify-content: space-between;
+    }
+    .footer a{
+        color: rgb(214, 209, 209);
+    }
